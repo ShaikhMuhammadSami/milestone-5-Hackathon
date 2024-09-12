@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Resume Builder</title>
+</head>
+<body>
+    <h1>Unique Path And Shareable Link</h1>
+    <img src="img-1.png" alt="Resume Owner Picture" class="profilePicture">
+    <form id="resumeForm">
+        <fieldset>
+            <legend class="heading">Personal Information</legend>
+
+            <label for="userName">System Generated URL :</label><br>
+            <input type="text" name="userName" id="userName" required placeholder="Enter Your Name To Generate Your Resume">
+
+
+
+
+            <label for="name">Name:</label><br>
+            <input type="text" name="name" id="name" required placeholder="Your Name"><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" name="email" id="email" required placeholder="Email"><br>
+
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" name="phone" id="phone" required placeholder="Phone Number">
+
+            <label for="address">Address:</label><br>
+            <input type="text" name="address" id="address" required placeholder="Enter Your Address">
+
+
+
+            <!-- Profile Picture -->
+            <label for="profilePicture">profile Picture</label>
+            <input type="file" name="profilePicture" id="profilePicture" accept="image/*" required>
+
+
+        </fieldset>
+
+        <fieldset>
+            <legend class="heading">Education</legend>
+            <label for="education">Education</label><br>
+            <textarea name="education" id="education" rows="4" required placeholder="Your Education"></textarea><br>
+        </fieldset>
+
+        <fieldset>
+            <legend class="heading">Experience</legend>
+            <label for="experience">Experience</label><br>
+            <textarea name="experience" id="experience" rows="4" required placeholder="Your Experience"></textarea><br>
+        </fieldset>
+
+        <fieldset>
+            <legend class="heading">Skills</legend>
+            <label for="skills">Skills</label><br>
+            <textarea name="skills" id="skills" rows="4" required placeholder="Your Skills"></textarea><br>
+        </fieldset>
+
+        <button type="submit">Generate Resume</button>
+    </form>
+
+    <div id="resumeOutput" class="resumeOutput">
+        <!-- Resume will be generated here -->
+    </div>
+
+    <script src="script.js"></script> 
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

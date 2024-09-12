@@ -1,0 +1,128 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 25px;
+    padding: 0;
+    background :linear-gradient(90deg, rgb(98, 1, 74),rgb(132, 5, 5));
+}
+
+.profilePicture{
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #160fe0;
+    box-shadow: 0 0 35px #160fe0;
+    border-radius: 500%;
+    width: 200px;
+    height: 200px;
+    object-fit:contain;
+    margin-bottom: 15px;
+    background: rgb(237, 236, 236);
+}
+
+
+ h1{
+    text-align: center;
+    color: rgb(0, 203, 214);
+}
+
+h1:hover{
+    color: var(#087d81);
+    text-shadow: 0 0 35px #ffffff
+} 
+
+
+form{
+    max-width: 600px;
+    margin: auto;
+    background-color: aliceblue;
+    border-radius: 8px;
+    box-shadow: 0 5px 9px rgba(0,0,0,0.8);
+    padding: 25px;
+}
+
+form .heading{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+form .heading:hover{
+    color: #e00fb3;
+    text-shadow:0 0 35px #e00fb3;
+}
+
+
+
+
+fieldset{
+    border: 2px solid #e00fb3;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: rgb(255, 255, 255); 
+}
+
+legend{
+    font-weight: bold;
+    text-align: left;
+    color: black;
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+input,textarea{
+    width: calc(100% - 1px);
+    padding: 6px;
+    margin-top: 5px;
+    border: 1px solid #e00fb3;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+
+button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid #e00fb3;
+    border-radius: 15px;
+    background-color: aliceblue;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover{
+    background-color: #e00fb3;
+    color: white;
+    box-shadow: 0 0 20px #e00fb3;
+}
+
+
+.resumeOutput{
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #e00fb3; 
+    border-radius: 8px;
+    background-color: aliceblue;
+    box-shadow: 0 0 20px #e00fb3;
+    margin-top: 20px;
+}
+
+.resumeOutput h2{
+    color: rgb(79, 77, 77);;
+}
+
+
+
+
+
